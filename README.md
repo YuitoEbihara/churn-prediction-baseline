@@ -18,16 +18,16 @@ uv sync
 uv run python main.py
 ```
 
-`outputs/` に以下の 2 ファイルが出力されます:
+`outputs/` に以下のファイルが出力されます:
 
 | ファイル | 内容 |
 |---|---|
-| `prediction_log.csv` | テスト行ごとの特徴量値 + 正解ラベル + 予測ラベル + 予測確率 + 正誤フラグ |
+| `{valid,test}_prediction_log.csv` | 各データ行ごとの特徴量値 + 正解ラベル + 予測ラベル + 予測確率 + 正誤フラグ |
 | `feature_importance.csv` | LightGBM の feature importance（split ベース） |
 
-## ベースライン結果
+## ベースライン結果 (Test Data)
 
 ```
-Accuracy : 0.7864
-ROC-AUC  : 0.8331
+Accuracy : 0.7850
+ROC-AUC  : 0.8268
 ```
