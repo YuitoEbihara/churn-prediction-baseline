@@ -28,6 +28,8 @@ uv run python main.py
 ## ベースライン結果 (Test Data)
 
 ```
-Accuracy : 0.7850
-ROC-AUC  : 0.8268
+Accuracy  : 0.7913
+Precision : 0.64
+Recall    : 0.48
+F1-score  : 0.55
 ```
